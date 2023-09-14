@@ -1,63 +1,73 @@
-/*const numero1 = 1
-const numero2 = 2
-if (numero1 === numero2){
-    console.log("Os numeros sao iguais")
-} else{
-    console.log("Os numeros nao sao iguais")
+
+
+//exemplo1 
+/*
+let voltas = 0
+ while (voltas < 10){
+    console.log(voltas)
+
+
+    voltas++
+ }
+
+*/
+/*
+let voltas = 0
+ while(voltas < 20){
+    console.log("o ciclista deu", voltas, "voltas")
+    voltas++
+ }
+
+*/
+/*
+for(let i = 0; i < 10; i++) {
+    console.log(i)
 }
 */
 /*
-
-
-
-
-
-let numero1 = 3
-let numero2 = 4
-if (numero1 > numero2){
-console.log("E maior")
-}else if (numero1 < numero2){
-console.log("E menor")
-}else{
-    console.log("Sao iguais")
+const numeros = [14, 67, 89, 15, 23]
+for(let i = 0; i < 5; i++){
+ const elemento = numeros
+ console.log(elemento)
 }
 */
-
 /*
-let pokemonInicial = "squirtle(agua)"
+const numeros = [14, 67, 89, 15, 23]
+for(let numero of numeros){
+    console.log(numero)
 
-if(pokemonInicial === "bulbassaur(planta veneno)"){
-console.log(pokemonInicial)
-
-}else if(pokemonInicial === "charmander(fogo)"){
-    console.log(pokemonInicial)
-
-}else{
-console.log(pokemonInicial)
 }
 */
 
+ /*
+let numero = 0;
+while(numero <= 10) {
+    if( numero % 2 === 0 ) {
+    }
+    
+    console.log(numero);
+    
+numero++;
+}
+*/
+let contagem = 10
+while( contagem <0){
+    if( contagem === 0){
+
+        console.log(contagem, "tic") 
+    }
+else{
+    console.log(contagem, "boom")
+}
+
+contagem--
+
+}
 
 
 
 
-
-
-
-
-
-
-let i = o
-
-
-
-
-
-
-
-
-
-
+   
 
 
 
